@@ -6,7 +6,6 @@ __pycache__/
 *.py[cod]
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
-
-
-train/
-test/
+data
+data_raw
+.idea
