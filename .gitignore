@@ -9,3 +9,6 @@ __pycache__/
 data
 data_raw
 .idea
+
+/train
+/test
