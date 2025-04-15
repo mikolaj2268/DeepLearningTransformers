@@ -1,2 +1,6 @@
 py7zr
 librosa
+kaggle
+datasets
+jupyter
+ipywidgets
