@@ -4,3 +4,4 @@ kaggle
 datasets
 jupyter
 ipywidgets
+torch
