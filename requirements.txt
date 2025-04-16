@@ -5,3 +5,6 @@ datasets
 jupyter
 ipywidgets
 torch
+matplotlib
+scikit-learn
+scipy
