@@ -118,6 +118,10 @@ def predict_model(model, device, classes, test_loader, lr, weight_decay, model_n
     cm = confusion_matrix(all_labels, all_preds)
     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=classes)
     disp.plot(xticks_rotation=45, cmap="Blues")
+    disp.ax_.tick_params(axis='x', labelsize=14)
+    disp.ax_.tick_params(axis='y', labelsize=14)
+    disp.ax_.set_xlabel(disp.ax_.get_xlabel(), fontsize=15)
+    disp.ax_.set_ylabel(disp.ax_.get_ylabel(), fontsize=15)
     plt.tight_layout()
 
     if save_flg:
