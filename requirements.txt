@@ -8,3 +8,5 @@ torch
 matplotlib
 scikit-learn
 scipy
+torchvision
+torchaudio
