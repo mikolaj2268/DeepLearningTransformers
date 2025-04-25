@@ -103,7 +103,7 @@ def predict_model(model, device, classes, test_loader, lr, weight_decay, model_n
                     n_class_correct[label] += 1
                 n_class_samples[label] += 1
 
-    acc_total = 100.0 * n_correct / n_samples
+    acc_total = round(100.0 * n_correct / n_samples, 2)
     print(f'Accuracy of the network {model_name} with lr = {lr} and weight decay = {weight_decay}: {acc_total:.2f}%')
     acc_per_class = []
     for i in range(12):
